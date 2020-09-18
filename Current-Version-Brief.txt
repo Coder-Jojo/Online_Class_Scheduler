@@ -1,0 +1,15 @@
+Changes made to first version:
+1.) Made the code modular by adding functions.
+2.) New version allows scheduling in advance so user doesn't have to run the code before every class.
+3.) Ask confirmation from user to join the class.
+
+Scope for Improvement:
+1.) Terminate the program after last class is launched
+2.) Run the code automatically on log in.
+3.) Currently if user logs into pc at time >= a class time then that class is not launched. That is if user is late 5 mins for the first class
+    then first class will not launch. There no problem with next classes only first class has the problem.
+4.) Give user the option whether he wants a confirmation before every class or not
+5.) Ability to reschedule a class if it is cancelled.
+6.) Currently the code has to be run for every log into the pc. Make it so that once run for the day the schedule for next classes is saved
+    and on restarting resumes from there. 
+7.) User may have two accounts in browser. The class should be joined by the account the user wants.
